@@ -83,6 +83,20 @@ a {
   width: 20%;
 }
 
+#nav-content-mobile {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.backg {
+  background-color: #e28743;
+}
+
+#h1-nav-cross {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .taille {
     font-size: 30px;
@@ -94,5 +108,17 @@ a {
 
   .nav {
     display: none;
+  }
+  
+  .nav-mobile {
+    display: block;
+    position: fixed;
+    top: 2%;
+    right: 20%;
+  }
+
+  .h-nav {
+    background-color: #e28743;
+    border-radius: 30%;
   }
 }
