@@ -1,3 +1,8 @@
+
+h1 {
+  overflow-x: hidden;
+}
+
 body,
 .some {
   font-weight: 50;
@@ -104,6 +109,9 @@ a {
 @media only screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
   .taille {
     font-size: 30px;
@@ -132,5 +140,9 @@ a {
   img:hover {
     transition: 0ms;
     transform: scale(1) rotate(0deg);
+  }
+
+  .renverse {
+    transform: none;
   }
 }

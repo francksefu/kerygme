@@ -6,7 +6,7 @@ const Middle = () => {
     <div className="container-fluid">
       <div className="row mt-3">
         <div className="col-md-3"> </div>
-        <div className="col-md-4 mt-3">
+        <div className="col-md-4 mt-3 p-1 ">
           <h3 className="text-dark some mt-3 mb-2">Son histoire continue ...</h3>
           <p className=" p-3 border-start">
             Apres une profonde crise existencielle, se produit en lui une serieuse

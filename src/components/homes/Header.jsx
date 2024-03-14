@@ -11,7 +11,7 @@ const Header = () => {
           <h2 className="text-white some"><Link to="/" className="text-light"> KERYGME</Link></h2>
         </div>
         
-        <div className="col-6"> </div>
+        <div className="col-md-6"> </div>
         <img
           src={ImageKiko}
           alt='image de kiko'
