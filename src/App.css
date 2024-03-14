@@ -129,4 +129,8 @@ a {
   img:hover {
     transition: 0ms;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
