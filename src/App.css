@@ -1,42 +1,127 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body,
+.some {
+  font-weight: 50;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  overflow-x: hidden;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.fond {
+  background-color: rgb(21, 76, 121);
+}
+
+.taille {
+  font-size: 80px;
+}
+
+.vertical {
+  transform: rotate(90deg);
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rounded {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.renverse {
+  transform: rotate(15deg);
+}
+img:hover {
+  transition: 1000ms;
+  transform: scale(1.2) rotate(20deg);
+}
+
+img {
+  object-fit: contain;
+}
+
+.quote {
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mettre {
+  justify-items: end;
+}
+
+.nav {
+  width: 5%;
+  background-color: #e28743;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  z-index: 3;
+}
+
+#nav-desk {
+  position: absolute;
+  top: 40%;
+}
+
+.nav:hover {
+  transition: 1000ms;
+  width: 20%;
+}
+
+#nav-content-mobile {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.nav-mobile {
+  display: none;
+}
+
+.backg {
+  background-color: #e28743;
+}
+
+#h1-nav-cross {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .taille {
+    font-size: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .hide-phone {
+    display: none;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .nav {
+    display: none;
   }
-}
+  
+  .nav-mobile {
+    display: block;
+    position: fixed;
+    top: 2%;
+    right: 20%;
+  }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .h-nav {
+    background-color: #e28743;
+    border-radius: 30%;
+  }
 }
