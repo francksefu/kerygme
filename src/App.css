@@ -39,6 +39,7 @@ h1 {
 .renverse {
   transform: rotate(15deg);
 }
+
 img:hover {
   transition: 1000ms;
   transform: scale(1.2) rotate(20deg);
@@ -123,5 +124,10 @@ a {
   .h-nav {
     background-color: #e28743;
     border-radius: 30%;
+  }
+
+  img:hover {
+    transition: 0ms;
+    transform: scale(1) rotate(0deg);
   }
 }
