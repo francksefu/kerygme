@@ -102,6 +102,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   .taille {
     font-size: 30px;
   }
@@ -129,9 +132,5 @@ a {
   img:hover {
     transition: 0ms;
     transform: scale(1) rotate(0deg);
-  }
-
-  body {
-    overflow-x: hidden;
   }
 }
