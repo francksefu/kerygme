@@ -88,6 +88,9 @@ a {
   height: 0;
   overflow: hidden;
 }
+.nav-mobile {
+  display: none;
+}
 
 .backg {
   background-color: #e28743;
