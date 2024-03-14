@@ -1,18 +1,19 @@
+import { Link } from 'react-router-dom';
 import Livre2 from '../../assets/images/franckkiko.png';
 const Foot = () => {
   return(
     <div className="bg-dark p-3 text-white container-fluid">
       <div className="row p-3">
-        <h2 className="col-md-4 some">LE KERYGME</h2>
+        <h2 className="col-md-4 some"><Link to="/" className="text-light">LE KERYGME</Link></h2>
         <div className="col-md-2"> </div>
         <div className="col-md-4 row bg-secondary rounded">
           <img
             src={Livre2}
             alt='image du livre de kiko'
-            className="img-fluid rounded p-0 mt-3 mb-3 col-4"
+            className="img-fluid rounded p-0 mt-3 mb-3 col-md-4"
           />
           <p>
-            Franck sefu is a developper fulltack with many hobbies like listen music
+            Franck sefu is a fullstack web developper with many hobbies like listen music
             ,watch movies and many other stuff
             but he like so much spend time with his computer.
             thanks for reading.

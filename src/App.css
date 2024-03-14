@@ -63,3 +63,36 @@ a {
 .mettre {
   justify-items: end;
 }
+
+.nav {
+  width: 5%;
+  background-color: #e28743;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  z-index: 3;
+}
+
+#nav-desk {
+  position: absolute;
+  top: 40%;
+}
+
+.nav:hover {
+  transition: 1000ms;
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .taille {
+    font-size: 30px;
+  }
+  
+  .hide-phone {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+}

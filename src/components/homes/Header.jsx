@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ImageKiko from '../../assets/images/kiko.png';
 import ImageJesus from '../../assets/images/jesus.png';
 import Imagekiko2 from '../../assets/images/kiko2.png';
@@ -7,7 +8,7 @@ const Header = () => {
     <div className="bg-dark container-fluid">
       <div className="row p-2">
         <div className="col-3 p-3">
-          <h2 className="text-white some border-end">KERYGME</h2>
+          <h2 className="text-white some"><Link to="/" className="text-light"> KERYGME</Link></h2>
         </div>
         
         <div className="col-6"> </div>
@@ -20,7 +21,7 @@ const Header = () => {
         <img
           src={ImageJesus}
           alt='image de kiko'
-          className="img-fluid col-2 rounded p-0 renverse"
+          className="img-fluid col-2 rounded p-0 renverse hide-phone"
         />
         <div className="title text-center text-white"><h1 className="text-center taille">INITIATEUR</h1><h1 className="taille text-center">DU CAMINO NEOCATECUMENAL</h1> </div>
       </div>
@@ -37,7 +38,7 @@ const Header = () => {
         <img
           src={Imagekiko2}
           alt='image de kiko'
-          className="img-fluid col-3 rounded p-0"
+          className="img-fluid col-md-3 rounded p-0"
         />
       </div>
       
